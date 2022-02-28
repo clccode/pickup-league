@@ -1,0 +1,128 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: azure;
+    color: darkblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.content {
+    padding-top: 10px;
+    margin: auto;
+    width: 100%;
+    background-color: darkblue;
+    color: azure;
+    padding-bottom: 10px;
+}
+
+.content img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    height: auto;
+    display: block;
+}
+
+.rink {
+    padding-top: 10px;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.rink img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    height: auto;
+    display: block;
+}
+
+.address {
+    line-height: .5em;
+}
+
+.beer {
+    padding-top: 10px;
+    margin: auto;
+    width: 100%;
+    background-color: darkblue;
+    color: azure;
+    padding-bottom: 10px;
+}
+
+.beer img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    height: auto;
+    display: block;
+}
+
+.contact {
+    padding-top: 10px;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.footer {
+    font-size: .75em;
+}
+
+@media only screen and (max-width: 1048px) {
+    img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    img {
+        width: 100%;
+    }
+}
