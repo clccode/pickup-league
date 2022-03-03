@@ -30,11 +30,15 @@ figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Header */
+
 .navbar {
     display: flex;
     justify-content: space-around;
     margin: 0 10%;
 }
+
+/* About Us */
 
 .content {
     padding-top: 10px;
@@ -52,6 +56,8 @@ figcaption {
     height: auto;
     display: block;
 }
+
+/* Where We Play */
 
 .rink {
     padding-top: 10px;
@@ -71,6 +77,8 @@ figcaption {
 .address {
     line-height: .5em;
 }
+
+/* Beer & Food */
 
 .beer {
     padding-top: 10px;
@@ -99,6 +107,8 @@ figcaption {
 .footer {
     font-size: .75em;
 }
+
+/* Media Properties for Different Screen Sizes */
 
 @media only screen and (max-width: 1048px) {
     img {
